@@ -1,0 +1,132 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:skyblue !important;
+}
+
+.container {
+    background-color:skyblue;
+    margin: 0 !important;
+}
+
+/*.container .headermove {
+    margin: 0 !important;
+    background-color: green;
+}*/
+
+.field {
+    background-image: url(field.png);
+    margin-bottom: 150px;
+    height: 150px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.mrbump {
+    background-image: url(mrbump.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.field.up .mrbump {
+    top: -17%;
+    padding: 100px;
+}
+
+.game {
+    padding-top: 70px;
+    background: burlywood;
+}
+
+.top {
+    width: 0% !important;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+    padding-top: 70px;
+}
+
+.score {
+    background:green;
+    color: white;
+    padding: 10px;
+    border: white solid 1px;
+}
+
+button {
+    background:green;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.buttonmove {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/** {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+   
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    align-items: center;
+   }
+button {
+    width: 200px;
+}
+.game {
+    
+    display: flex;
+    
+    height: 100%;
+    width:100%;
+    margin: 0 auto;}
+.field {
+    
+    position: relative;
+    margin-right: 30%;}
+
+.field:after {
+    display: block;
+    background: url(field.png) 
+    bottom center no-repeat;
+    background-size: contain;
+    content: '';
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    align-content: space-between;
+}*/
+
